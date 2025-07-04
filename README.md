@@ -1,4 +1,4 @@
-# Car Manufacturer API
+# Car Manufacturer API (index.php)
 
 A comprehensive REST API for managing car manufacturer data with full CRUD (Create, Read, Update, Delete) operations.
 
@@ -25,6 +25,7 @@ CREATE TABLE car_manufacturer (
     ceo VARCHAR(100) NOT NULL
 );
 ```
+You may use car_manufacturer.sql to bulk insert data into table above. Use db_config.php to set your MariaDB database connection.
 
 ## API Endpoints
 
